@@ -1,0 +1,260 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Profil Saya</title>
+        <link rel="stylesheet" href="profile.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li> <a href="#" >HOME </a></li>
+                <li> <a href="#" >PRODUCTS </a></li>
+                <li> <a href="#" >GALERY </a></li>
+                <li> <a href="profile.html" >BLOG </a></li>
+                <li> <a href="#" >MY INVENTORY</a></li>
+            </ul>
+        </nav>
+
+        <section id="box-profile">
+            <div class="img-profile">
+                <div class="photo" style="background-image: url(https://landingpageswnpg01.herokuapp.com/images/me.png)">
+                </div>
+                <!-- /* <img src="Liko.jpg" alt="Profil Saya"> */ -->
+            <!-- </div>
+
+            <div>
+                <h1> Nama Anda </h1>
+                <p> Front End Developer </p>
+                <a href ="#"></a>Kontak </a>
+                <a href ="#"></a>Resume </a>
+            </div>
+
+            <div> 
+                <div>
+                    <p> Availibity</p>
+                    <p> Full Time</p>
+                </div>
+            
+                <div>
+                    <p> Usia</p>
+                    <p> 17</p>
+                </div>
+            
+                <div>
+                    <p> Lokasi</p>
+                    <p> Jakarta, Indonesia</p>
+                </div>
+            
+                <div>
+                    <p> Pekerjaan </p>
+                    <p> Email : @gmail.com</p>
+
+                </div>
+            </div>
+
+            <section>
+                <form>
+                    <div>
+                        <label> Name </label>
+                        <input type="text" name="nama">
+                    </div><div>
+                        <label> Role </label>
+                        <input type="text" role="nama">
+                    </div>
+                        <label> Availibilty </label>
+                        <input type="text" name="Availibilty">
+                    </div>
+                        <label> Age </label>
+                        <input type="text" name="age">
+                    </div>
+                    <div>
+                        <label> Lokasi </label>
+                        <input type="text" name="lokasi">
+                    </div>
+                        <label> Years Experience </label>
+                        <input type="number" name="years">
+                    </div>
+                    <div>
+                        <label> Email </label>
+                        <input type="email" name="years">
+                        <div>
+                            <input type="submit" name="submit" >
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </section>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Profil Saya</title>
+        <link rel="stylesheet" type="text/css" href="../portofolio/assets/CSS/profile.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+	<body>
+        <nav>
+            <div class="menu-mobile">
+                <a href="#" onclick="showMenu()"> Menu </a>
+            </div>
+
+			<ul id="menu">
+				<li> <a href="#"> HOME </a> </li>
+				<li> <a href="#"> PRODUCTS </a> </li>
+				<li> <a href="#"> GALLERY </a> </li>
+				<li> <a href="blog.html"> BLOG </a> </li>
+				<li> <a href="#"> MY INVENTORY </a> </li>
+			</ul>
+		</nav>
+
+		<section id="box-profile">
+			<div class="img-profile">
+				 <!-- <div class="photo" style="background-image: url(E:\LIKO\Coding\Hactiv\Likoblogtest download.jpeg"></div> -->
+				  <img src="http://localhost/portofolio/assets/img/download.jpeg" alt="Profil Saya"> 
+			</div>
+
+			<div class="description">
+				<h1 id="pName">Nama Anda</h1>
+				<p id="pRole">Front End Designer</p>
+				<a href="#input-form" class="button bg-blue" onclick="editForm()">Edit</a>
+				<a href="#" class="button border-green">Resume</a>
+			</div>
+
+			<div class="information">
+				<div class="data">
+					<p class="field">Availability</p>
+					<p id="pAvailability"class="text-gray">Full Time</p>
+				</div>
+				<div class="data">
+					<p class="field">Usia</p>
+					<p id="pAge"class="text-gray">17</p>
+				</div>
+				<div class="data">
+					<p class="field">Lokasi</p>
+					<p id="pLocation"class="text-gray">Jakarta, Indonesia</p>
+				</div>
+				<div class="data">
+					<p class="field">Pengalaman</p>
+					<p id="pExperience"class="text-gray">2</p>
+				</div>
+				<div class="data">
+					<p class="field">Email</p>
+					<p id="pEmail"class="text-gray">developer@gmail.com</p>
+				</div>
+			</div>
+        </section>
+
+			<section id="input-form">
+				<!-- <form> -->
+					<div class="form">
+						<label> Name </label>
+						<input id="inpName" type="text" name="nama">
+					</div>
+					<div class="form">
+						<label> Role </label>
+						<input id="inpRole" type="text" name="role">
+					</div>
+					<div class="form">
+						<label> Availability </label>
+						<input id="inpAvailability" type="text" name="availability">
+					</div>
+					<div class="form">
+						<label> Age </label>
+						<input id="inpAge" type="text" name="age">
+					</div>
+					<div class="form">
+						<label> Lokasi </label>
+						<input id="inpLokasi" type="text" name="lokasi">
+					</div>
+					<div class="form">
+						<label> Years Experience </label>
+						<input id="inpYears" type="number" name="years">
+					</div>
+					<div class="form">
+						<label> Email </label>
+						<input id="inpEmail" type="email" name="email">
+					</div>
+					<div class="form">
+						<input onclick="simpanForm()" type="submit" name="submit" value="SUBMIT" class="bg-green">
+					</div>
+				<!-- </form> -->
+            </section>
+            
+            <script>
+                let formMenu = document.getElementById("input-form");
+                formMenu.style.display="none";
+
+                function editForm()
+                {
+                    if(formMenu.style.display ==="none")
+                    {
+                        formMenu.style.display = "block";
+                    }else{
+                        formMenu.style.display ="none";
+                    }
+                }
+
+
+                let name = document.getElementById("pName").innerHTML;
+                let role = document.getElementById("pRole").innerHTML;
+                let available = document.getElementById("pAvailability").innerHTML;
+                let age = document.getElementById("pAge").innerHTML;
+                let lokasi= document.getElementById("pLocation").innerHTML;
+                let Experience = document.getElementById("pExperience").innerHTML;
+                let email = document.getElementById("pEmail").innerHTML;
+
+
+                document.getElementById("inpName").value=name;
+                document.getElementById("inpRole").value=role;
+                document.getElementById("inpAvailability").value=available;
+                document.getElementById("inpAge").value=age;
+                document.getElementById("inpLokasi").value=lokasi;
+                document.getElementById("inpYears").value=Experience;
+                document.getElementById("inpEmail").value=email;
+
+
+                function simpanForm()
+                {
+                    formMenu.style.display = "none";
+
+                    let name = document.getElementById("inpName").value;
+                    let role = document.getElementById("inpRole").value;
+                    let available = document.getElementById("inpAvailability").value;
+                    let age = document.getElementById("inpAge").value;
+                    let Lokasi = document.getElementById("inpLokasi").value;
+                    let Experience = document.getElementById("inpYears").value;
+                    let email = document.getElementById("inpEmail").value;
+
+                    document.getElementById("pName").innerHTML = name;
+                    document.getElementById("pRole").innerText = role;
+                    document.getElementById("pAvailability").innerText = available;
+                    document.getElementById("pAge").innerText = age;
+                    document.getElementById("pLocation").innerText = Lokasi;
+                    document.getElementById("pExperience").innerText = Experience;
+                    document.getElementById("pEmail").innerHTML = email;
+
+                }
+
+
+
+                function showMenu()
+                {
+                    let menu = document.getElementById("menu");
+                    let box = document.getElementById("box-profile");
+
+                    if(menu.style.display === "block")
+                    {
+                        menu.style.display = "none";
+                        box.style.paddingTop = "0px";
+                    }else{
+                        menu.style.display = "block"
+                        box.style.paddingTop = "125px"
+                    }
+                }
+
+            </script>
+		
+	</body>
+</html>

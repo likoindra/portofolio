@@ -1,0 +1,61 @@
+body{
+    background:white;
+    margin: 0px;
+    
+}
+
+header{
+    text-align: center;
+    color: teal;
+
+}
+
+
+.kotak1{
+    font-style: normal;
+    background-color: orange;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+}
+header .word1{
+    font-size: 17px;
+
+
+}
+header .text{
+    font-size: 14px;
+    
+}
+
+.Sidebar #kanan1{
+    padding: 25px;
+    margin: 0 0 25px ;
+    background: white;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease;
+    
+}
+#kanan2{
+    width: 275px;
+    /* height:100px; */
+    float: right;
+}
+
+.Sidebar{
+    float: right;
+    width: 275px;
+}
+.Sidebar #kanan1 h1{
+    padding: 0px;
+    margin: 0 0 25px ;
+    color: yellowgreen;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Sidebar #kanan1 p{
+    font-size: 14px;
+
+}
